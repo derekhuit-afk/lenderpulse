@@ -1,1 +1,28 @@
-{"name": "lenderpulse", "version": "1.0.0", "private": true, "scripts": {"dev": "next dev", "build": "next build", "start": "next start"}, "dependencies": {"next": "14.2.0", "react": "^18", "react-dom": "^18", "stripe": "^14.0.0", "bcryptjs": "^2.4.3", "jose": "^5.0.0", "@supabase/supabase-js": "^2.39.0"}, "devDependencies": {"typescript": "^5", "@types/node": "^20", "@types/react": "^18", "@types/bcryptjs": "^2.4.6", "tailwindcss": "^3.4.0", "autoprefixer": "^10.0.1", "postcss": "^8"}}
+{
+  "name": "lenderpulse",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.22",
+    "react": "^18",
+    "react-dom": "^18",
+    "stripe": "^14.0.0",
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.0.0",
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/bcryptjs": "^2.4.6",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8"
+  }
+}
