@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AgentWidget from '@/components/AgentWidget';
 
 export const metadata: Metadata = {
   title: "LenderPulse — Mortgage Lender Risk Intelligence",
@@ -11,7 +12,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body style={{ background: "#050A07", color: "#E8EAF0", fontFamily: "monospace" }}>
         {children}
-      </body>
+            <AgentWidget />
+    </body>
     </html>
   );
 }
